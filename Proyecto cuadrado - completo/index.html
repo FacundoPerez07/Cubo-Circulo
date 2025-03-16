@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample</title>
+    <link rel="icon" type="image/png"  href="./iconoVentana.png">
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+<body id="body">
+    <header class="cabeza">
+        <div class="contBotonFondo">
+            <button id="botonFondo" class="botonFondo">
+                <img class="imgBotonFondo" src="./flechaBoton.png" alt="#">
+            </button>
+        </div>
+    </header>
+    <main>
+        <div class="contCuadrado">
+            <div id="cuadrado" class="cuadrado">
+
+            </div>
+        </div>
+
+        <div class="contTexto">
+            <h3 id="texto" class="texto">Welcome!</h3>
+        </div>
+
+        <div class="contCambiarFigura">
+            <button id="botonFigura" class="cambiarFigura botonCirculo"></button>
+        </div>
+
+        <div class="contAcciones">
+            <div class="rotacion">
+                <h3 id="textRotation" class="text">Rotation</h3>
+                <div class="controlRotacion">
+                    <input id="controlRotacion" type="range" min="0" max="360" value="0">
+                </div>
+            </div>
+            <div class="color">
+                <h3 id="textColor" class="text">Change color</h3>
+                <div class="controlColor">
+                    <input id="controlColor" type="color">
+                </div>
+            </div>
+            <div class="barraTamaño">
+                <h3 id="textSize" class="text">Change size</h3>
+                <div class="controlTamaño">
+                    <input id="controlTamaño" type="range" min="20" max="250" value="150">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="./javaScript/index.js"></script>
+</body>
+</html>
